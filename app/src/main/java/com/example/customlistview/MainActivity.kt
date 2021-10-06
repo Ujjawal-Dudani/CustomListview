@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             val itemAtPos = adapterView.getItemAtPosition(position)
             val itemIdAtPos = adapterView.getItemIdAtPosition(position)
             Toast.makeText(this,
-                "Click on item at $itemAtPos its item id $itemIdAtPos",
+                "Click on item at $itemAtPos its item id ${itemIdAtPos+1}",
                 Toast.LENGTH_LONG).show()
         }
     }
